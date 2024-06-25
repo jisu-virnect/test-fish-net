@@ -655,9 +655,9 @@ MonoBehaviour:
   _ipv4BindAddress: 
   _enableIpv6: 1
   _ipv6BindAddress: 
-  _port: 30128
+  _port: 32518
   _maximumClients: 4095
-  _clientAddress: e51f0b19d575.pr.edgegap.net
+  _clientAddress: b5e7e116bbaf.pr.edgegap.net
 --- !u!1 &1514559301
 GameObject:
   m_ObjectHideFlags: 0
