@@ -1,0 +1,17 @@
+name: Figlet Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  figlet-demo:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: Install figlet
+        run: sudo apt-get update && sudo apt-get install -y figlet
+      
+      - name: Show hello in ASCII art
+        run: figlet hello
+      
+  
